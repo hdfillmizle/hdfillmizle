@@ -1,0 +1,244 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--==Title==================================-->
+<title>HD-Film.izle</title>
+<!--Stylesheet(CSS)==========================-->
+<link rel="stylesheet" href="css/style.css"/>
+<!--==Fav-icon===============================-->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--==Import-poppins-font====================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--==Import-Monoton-Font====================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<!--==Using-Font-Awesome======================-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--==Scroll-Progress-bar=========================-->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+    <!--==Navigation===================================-->
+    <nav class="navigation">
+        <!--menu-btn--------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--logo------------------->
+        <a href="index.html" class="logo">
+            HD.Film<span>.izle</span>
+        </a>
+        <!--menu------------------->
+        <ul class="menu">
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Filmler</a></li>
+            <li><a href="#">Diziler</a></li>
+            <li><a href="#">Popüler</a></li>
+            <li><a href="#">Katagori</a></li>
+            <li><a href="#">Hakımda</a></li>
+        </ul>
+        <!--Search-box------------->
+        <form action="" class="search-box">
+            <!--input-->
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
+            <!--btn-->
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </nav>
+    <!--nav-end-->
+    <!--==Movie-Banner=========================================-->
+    <section class="movie-banner">
+        <!--==img==================================-->
+        <div class="m-banner-img">
+            <img alt="" src="Movie-Data/Pirates-of-the-Caribbean-Salazar&#39;s-Revenge/cover.jpg">
+        </div>
+        <!--content================================-->
+        <div class="banner-container">
+            <!--title-container*******************----->
+            <div class="title-container">
+                <!--title-top===============-->
+                <div class="title-top">
+                <!--title----->
+                <div class="movie-title">
+                    <h1>Karayip Korsanları: Salazar'ın İntikamı</h1>
+                </div>
+                <!--more-about-movie-->
+                <div class="more-about-movie">
+                    <span class="quality">Full HD</span>
+                    <div class="rating">
+                        8.2 <img alt="imbd" src="images/IMDb-icon.png">
+                    </div>
+                    <span>28 Ağustos 2017</span>
+                    <span>2 saat</span>
+                </div>
+                <!--language--------->
+                <div class="language">
+                    <span>Türkçe Dublaj</span>
+                </div>
+                </div>
+                <!--Title-botttom==========================-->
+                <div class="title-bottom">
+                    <!--category------->
+                    <div class="category">
+                        <strong>Katagori</strong><br/>
+                        <a href="#">Korku</a>,<a href="#">Gizem</a>,<a href="#">Gerilim</a>,<a href="#">Aksiyon</a>
+                    </div>
+                    <!--trailer-btn---->
+                    <a href="https://www.youtube.com/watch?v=ZgQkEf3dQ08" class="watch-btn">Fragmanı izle</a>
+                </div>
+            </div>
+            <!--play-btn******************************--->
+            <div class="play-btn-container">
+                <div class="play-btn">
+                    <a href="javascript:void">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            <!--Video/full-Movie***************************-->
+            <div id="play" class="play">
+                <!--close-btn--->
+                <a href="javascript:void" class="close-movie">
+                    <i class="fas fa-times"></i>
+                </a>
+                <!--movie------->
+                <div class="play-movie">
+                    <video id="m-video" controls>
+                        <source src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Banner-end------------->
+    <!--details=====================================-->
+    <section class="movie-details">
+        <strong>Karayip Korsanları: Salazar'ın İntikamı</strong>
+        <p>Karayip Korsanları filminin 5. serisinde Kaptan Jack Sparrow Poseidon'un üç dişli yabasını aramaya başlar...</p>
+    </section>
+    <!--==ScreenShots===============================-->
+    <section class="screenshots">
+        <strong>Ekran görüntüleri</strong>
+        <!--screenshots-container----------->
+        <div class="screen-s-container">
+            <img alt="" src="Movie-Data/Pirates-of-the-Caribbean-Salazar&#39;s-Revenge/screenshot-1.jpg">
+            <img alt="" src="Movie-Data/Pirates-of-the-Caribbean-Salazar&#39;s-Revenge/screenshot-2.jpg">
+            <img alt="" src="Movie-Data/Pirates-of-the-Caribbean-Salazar&#39;s-Revenge/screenshot-3.jpg">
+            <img alt="" src="Movie-Data/Pirates-of-the-Caribbean-Salazar&#39;s-Revenge/screenshot-4.jpg">
+        </div>
+    </section>
+    <!--Download====================================-->
+    <section class="download-movie">
+        <!--container----------------->
+        <div class="download-container">
+            <!--box---->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i> Sunucu 1</span>
+                <span>Türkçe Dublaj</span>
+                <span>1080p</span>
+                <a href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mkv" download>İNDİRMEK</a>
+            </div>
+            <!--box---->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i> Sunucu 2</span>
+                <span>Türkçe Altyazılı</span>
+                <span>1080p</span>
+                <a href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mkv" download>İNDİRMEK</a>
+            </div>
+            <!--box---->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i> Sunucu 3</span>
+                <span>Türkçe Dublaj & Altyazılı</span>
+                <span>1080p</span>
+                <a href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mkv" download>İNDİRMEK</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <!--copyright----->
+        <span class="copyright">
+            
+            <br> HD-FİLM.izle 5651 sayılı kanuna göre içerik sağlayıcıdır. Sitemizdeki videolar üyelerimiz tarafından yüklenmektedir. Sitemizde yer alan videolardan herhangi bir telif hakkına ihlal ettiğini düşünüyorsanız, bize admin@hdfilmcehennemi.com adresinden gerekli yasal belgelerle müracaat etmeniz halinde 2 iş günü içerisinde söz konusu içerik kaldıralacaktır. | İf you think some videos is copyrighted, send us email and allow us 2 working days to delete the video.
+            <br>
+            <br>
+            <hr />
+            <br>
+            <br> <a href="index.html">HD-FİLM.izle</a> <br>
+            Ülkemizde gerek ekonomik sorunlardan gerek bazı illerde sinema salonların olmaması veya olsa da her filmin her şehre gelmemesi, insanları online film izleme arayışına sokmuştur. İnternetten online film izlemek gelişen internet ve bilgisayar teknolojisiyle eskiye nazaran çok daha kolay olmuştur. Günümüzde akşamları vakit geçirmek için internet sayesinde televizyon izlemeye veya sinema gitmeye ihtiyacınız yoktur. İster telefonunuzdan ister bilgisayarınızdan isterseniz evdeki televizyonunuzla internete bağlanıp www.hdfilmcehennemi.net dan film veya dizileri kolaylıkla izleyebilirsiniz.
+            
+            HD film arşivimizde son 10 yılın en kaliteli filmleri ağırlıklı olarak 1080p Full HD kalitededir. Hepsi özenle seçilmiş tarafımızca riplenmiş sizlerin izlemesi ve indirmesi için gerekli teknik altyapı tarafımızca sağlanmıştır. Film izleme siteleri arasında 1080p Full HD yapıp bu kalitede izleme ve indirme olanığını sağlayan ilk site hdfilmcehennemidir. Filmlerimizi net hızınıza veya internet kotanıza göre dilediğiniz kalitede izleyebilirsibiz. Hd film izlemenin yanı sıra sitemizde popüler yabancı dizilerimizde mevcuttur. Sitemizde toplam 750 sezon yabancı dizi vardır. Yabancı dizi arşivimiz her geçen gün artmaktadır.
+            
+            Çoğu film sitesinden farklı olarak ülkemizde hiç gösterime girmeyen veya hiç bir şekilde Türkçe altyazısı olmayan filmleride, çeviri ekibimizle beraber Türkçe altyazı hazırlayıp sizlerin izlemesini sağlıyoruz. Filmleri istediğiniz çözünürlükte indirmediniz için kullandığımız playerda indir butonu vardır. Reklamsız programsız bedava film veya diziyi sitemizden kolayca indirebilirsiniz.
+            
+            Kafa filmleri Türkçe altyazılı ve Türkçe dublaj olarak yayınlamamızın yanısıra eğer 3 boyutlu görüntüsü varsa meraklıları için 3 boyutlusunuda ekliyoruz. Nete düşen yabancı filmleri sitemize eklemeden evvel imdb puanına, kaç kişi oy kullanmış, özeti, oyuncuları ve fragmanı gibi belli başlı kriterlere göre karar veriyoruz. Bazen işin içinden çıkmadığımız durumlarda filmi orjinal dilde izleyip öyle karar veriyoruz.
+            
+            Hangi filmi izleyeceğine karar veremeyenler için sitemizde kategorilerimiz mevcuttur. Bu sayede beğendiginiz kategoride bir filmin kategorisini seçip kolayca bulabilirsiniz. Nette ilk bölümümüzden kendimizin Türkçe altyazı yapıp nette ilk olarak eklediğimiz filmleri bulabilirsiniz. Nette ilk bölümümüzde en güncel ve en özel film dizi paylaşımlarımızı bulabilirsiniz. Tavsiye filmler bölümünde tavsiye ettiğimiz filmlere kolayca izleyebilirsiniz.
+            
+            Hdfilmcehennemi olarak bir filmin sinema çekiminden tutun Bluray sürümü çıkana kadar tüm versiyonlarını yayınlıyoruz. Bu sayede filmi merak eden kişiler isterlerse sinema çekiminde isterlerse bekleyip hd olarak izleyebiliyorlar.
+            
+            Yılların verdiği bilgi, deneyimle hdfilmcehennemi ailenizin film izleme ve film indirme sitesidir. Bizi tercih ettiğiniz için teşekkür ederiz.
+
+
+        </span>
+    </footer>
+
+
+
+    
+    <!--==jQuery=======================================-->
+    <script src="js/jQuery.js"></script>
+    <script>
+        /*==scroll-progress-bar======================*/
+        let scrollPrecentage = () =>{
+            let scrollProgress = document.getElementById("progress");
+            let progressValue = document.getElementById("progress-value");
+            let pos = document.documentElement.scrollTop;
+            let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrollValue = Math.round(pos * 100 / calcHeight);
+            scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+        }
+        window.onscroll = scrollPrecentage;
+        window.onload = scrollPrecentage;
+        /*--menu-btn-fixed-when-scroll============*/
+        $(window).scroll(function(){
+            if($(document).scrollTop() > 20){
+                $('.navigation').addClass('fix-icon');
+            }
+            else{
+                $('.navigation').removeClass('fix-icon');
+            }
+        });
+        /*==popup-open==================================*/
+        $(document).on('click','.play-btn a',function(){
+            $('.play').addClass('active-popup');
+        });
+        /*==popup-Close==================================*/
+        $(document).on('click','.close-movie',function(){
+            $('.play').removeClass('active-popup');
+        });
+        /*==auto-play-when-popup-open===================*/
+        $('.play-btn a').click(function(){
+            $('#m-video')[0].play();
+        });
+        /*==Close-video-when-poppup-close==============*/
+        $('.close-movie').click(function(){
+            $('#m-video')[0].pause();
+        });
+      </script>
+</body>
+</html>
+  
+  
